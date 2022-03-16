@@ -1,0 +1,75 @@
+.header img{
+    width:100%;
+}
+.content1{
+    display:flex;
+    align-items: center;
+    margin:0 auto;
+}
+.content1 div{
+    margin:20px;
+
+}
+.footer{
+    background-color: aqua;
+}
+.footer Kanan{
+    display:flex;
+    align-items: center;
+    margin:0 auto;
+    float:left;
+}
+.Biodata img{
+    size: 500px;
+}
+.Biodata{
+    text-align:center;
+}
+.Kanan h1{
+    text-align:center;
+}
+.Kanan hr{
+    color:black;
+}
+.Kanan h3{
+    text-align:center;
+}
+.Kanan p{
+    text-align:center;
+}
+.header{
+    overflow:hidden;
+    background-color:#f7f2b4;
+    height: 500px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.Main{
+    font-style: normal;
+
+}
+.info li{
+    list-style: none;
+    float: left;
+}
+.Main{
+    background-color:#bdf7f1;
+}
+.Footer{
+    background-color:#ceccf3;
+}
+
+/* Untuk Tablet */
+@media(max-width: 1000px){
+    .item{
+    width: 50%;
+    }
+}
+
+/* Untuk Smartphone */
+@media(max-width: 670){
+    .item{
+        width: 100%;
+    }
+}
